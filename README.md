@@ -1,0 +1,3 @@
+# birdcall_identification_deep_learning
+birdcall_identification_deep_learning
+We love birds & nature, from untouched rainforests to suburbs & even cities , birds play an essential role in nature. Birds can tell you about the deteriorating habitats and environmental pollution. With proper sound detection researchers can intuit factors about an area's quality of life based on a changing birds population. In this article I will demonstrate techniques using Deep Learning AI Models which can be beneficial to identify bird species , help researchers better understand changes in habitat quality , level of pollution & effectiveness of restoration efforts.
