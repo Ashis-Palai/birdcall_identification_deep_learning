@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body oncontextmenu="return true;">
+
+<h1>Birdcall Identification: Identify birds from their sound</h1>
+
+<h3>Please upload bird's call in MP3 or WAV format to predict the bird species. </h3>
+
+
+<form enctype="multipart/form-data" action="/predict" method="POST">
+  <label for="myfile">Select Audio file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit">
+</form>
+
+<p>Sample Audios to test :<p>
+  <audio controls controlsList="download">
+    <source src="bewwre_XC109668.mp3"  >  
+    Your browser does not support the audio tag.
+  </audio>
+
+  <audio controls controlsList="download">
+    <source src="comter_XC141280.mp3"  >  
+    Your browser does not support the audio tag.
+  </audio>
+
+  <audio controls controlsList="download">
+    <source src="amerob_XC137939.mp3"  >  
+    Your browser does not support the audio tag.
+  </audio>
+
+</body>
+</html>
