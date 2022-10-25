@@ -61,10 +61,8 @@ criterion = torch.nn.CrossEntropyLoss()
 model.to(device)
 
 
-url = 'https://drive.google.com/file/d/1vu0zRcyaywtvvxHpIiJ8fUAN9e3k3yRb/view?usp=sharing'
-output = 'model_resnet34_epoch_20.pt'
-model_file = gdown.download(url, output, quiet=False)
-state = torch.load(model_file,map_location= torch.device('cpu'))
+
+state = torch.load('model_resnet34_epoch_20.pt',map_location= torch.device('cpu'))
 model.load_state_dict(state['state_dict'])
 optimizer.load_state_dict(state['optimizer'])
 
