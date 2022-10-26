@@ -132,6 +132,8 @@ def predict():
     # return flask.render_template('index.html')
     
     return 'Hare Krishna Hare Krishna Krishna Krishna Hare Hare \n Hare Rama Hare Rama Rama Rama Hare Hare'
-# 
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = 5000 + random.randint(0, 999)
+    url = "http://127.0.0.1:{0}".format(port)
+    app.run(use_reloader=False, debug=True, port=port)
