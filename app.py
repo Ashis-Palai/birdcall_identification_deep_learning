@@ -15,7 +15,7 @@ from albumentations import Normalize
 from sklearn.preprocessing import normalize
 import cv2
 from torch import FloatTensor, LongTensor, DoubleTensor
-import gdown
+
 
 
 
@@ -134,4 +134,4 @@ def predict():
     return 'Hare Krishna Hare Krishna Krishna Krishna Hare Hare \n Hare Rama Hare Rama Rama Rama Hare Hare'
 # 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='127.0.0.1', port=8080)
