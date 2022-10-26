@@ -134,4 +134,4 @@ def predict():
     return 'Hare Krishna Hare Krishna Krishna Krishna Hare Hare \n Hare Rama Hare Rama Rama Rama Hare Hare'
 # 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8080 , debug=True)
+    app.run(host='127.0.0.1', port=8000 , debug=True)
